@@ -24,7 +24,7 @@ const compareC = {
 }
 
 
-test('it properly debounces function', () =>{
+test('it returns true only when the compared properties are equal', () =>{
   expect(shallowDiffers(compareA, compareB)).toBe(true);
   expect(shallowDiffers(compareA, compareC)).toBe(false);
   expect(shallowDiffers(compareA, compareB, ["b"])).toBe(false);
