@@ -1,11 +1,11 @@
-function isInWhitelist(whitelist: string[], needle: string) {
+function isInWhitelist<T>(whitelist: T[], needle: T) {
   return whitelist.indexOf(needle) !== -1;
 }
 
-export function shallowDiffers(
-  objectA: Record<string, any>,
-  objectB: Record<string, any>,
-  whitelist: string[] = []
+export function shallowDiffers<T extends object, K extends Extract<keyof T, string> = never>(
+  objectA: T,
+  objectB: T,
+  whitelist: K[] = []
 ) {
   for (const property in objectA) {
     if (!isInWhitelist(whitelist, property) && !(property in objectB)) {
