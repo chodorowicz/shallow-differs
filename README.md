@@ -1,4 +1,9 @@
-# shallow-differs (with whitelist) [![Build Status](https://travis-ci.org/chodorowicz/shallow-differs.svg?branch=master)](https://travis-ci.org/chodorowicz/shallow-differs)
+# shallow-differs (with whitelist)
+---
+[![Build Status](https://travis-ci.org/chodorowicz/shallow-differs.svg?branch=master)](https://travis-ci.org/chodorowicz/shallow-differs)
+[![npm](https://img.shields.io/npm/v/shallow-differs.svg)](https://www.npmjs.com/package/shallow-differs) [![npm bundle size (minified + gzip)](https://img.shields.io/bundlephobia/minzip/shallow-differs.svg)](https://www.npmjs.com/package/shallow-differs)
+[![npm type definitions](https://img.shields.io/npm/types/shallow-differs.svg)](https://www.npmjs.com/package/shallow-differs)
+[![David](https://img.shields.io/david/chodorowicz/shallow-differs.svg)](https://david-dm.org/chodorowicz/shallow-differs) [![David](https://img.shields.io/david/peer/chodorowicz/shallow-differs.svg)](https://david-dm.org/chodorowicz/shallow-differs)
 
 This module is quite standard implementation of shallow compare of two objects. It iterates through object properties comparing them in a shallow way and returns a boolean, whether this two object are different (true) or they're the same in a shallow way (false).
 
