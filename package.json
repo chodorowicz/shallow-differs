@@ -11,7 +11,8 @@
   "scripts": {
     "build": "microbundle",
     "dev": "microbundle watch",
-    "test": "jest"
+    "test": "jest",
+    "release": "np --no-yarn"
   },
   "source": "src/index.ts",
   "author": "",
@@ -20,6 +21,7 @@
     "@types/jest": "^23.3.2",
     "jest": "^23.6.0",
     "microbundle": "^0.6.0",
+    "np": "^3.0.4",
     "ts-jest": "^23.1.4",
     "typescript": "^3.0.3"
   },
