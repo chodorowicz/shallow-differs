@@ -1,5 +1,5 @@
 # shallow-differs (with whitelist)
----
+
 [![Build Status](https://travis-ci.org/chodorowicz/shallow-differs.svg?branch=master)](https://travis-ci.org/chodorowicz/shallow-differs)
 [![npm](https://img.shields.io/npm/v/shallow-differs.svg)](https://www.npmjs.com/package/shallow-differs) [![npm bundle size (minified + gzip)](https://img.shields.io/bundlephobia/minzip/shallow-differs.svg)](https://www.npmjs.com/package/shallow-differs)
 [![npm type definitions](https://img.shields.io/npm/types/shallow-differs.svg)](https://www.npmjs.com/package/shallow-differs)
